@@ -1,0 +1,88 @@
+body {
+  background: black;
+  font-family: 'IBM3270', monospace;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+pre {
+  margin: 0;
+  font-family: 'IBM3270', monospace;
+  background-color: black;
+  color: #00ff00;
+  white-space: pre;
+  border: none;
+}
+
+button {
+  margin: 10px;
+}
+
+.highlight {
+  background-color: #001100;
+  color: #00ff00;
+  border: 1px solid #006600;
+}
+
+input {
+  margin: 0px;
+  border: 1px solid #006600;
+  outline: none;
+  padding: 0px;
+  box-sizing: border-box;
+  letter-spacing: 0.95px;
+  line-height: 1px;
+}
+
+input[type="text"], textarea {
+  font-family: 'IBM3270', monospace;
+  font-size: 13px;
+  background-color: #000000;
+  color: #00ff00;
+  line-height: 1px;
+  padding: 1px;
+}
+
+#menu {
+  font-family: 'IBM3270', monospace;
+  background: black;
+  color: #ffffff;
+  white-space: pre;
+  cursor: default;
+}
+
+.menu-item {
+  background: #002200;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background: #004400;
+}
+
+/* INLINE styles convertidos para classes */
+
+#form {
+  border: 0px solid #006600;
+  width: 750px;
+  height: 35px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#screen {
+  border: 10px solid #006600;
+  width: 750px;
+  height: 520px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menu-wrapper {
+  background: #002200;
+}
+
+.menu-inner {
+  background: #002200;
+}

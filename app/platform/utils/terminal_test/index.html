@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body onload="carregar()">
+
+<div id="form" style="font-family: 'IBM3270', monospace;font-size: 18px;">
+  HOST: 
+  <input type="text" id="host" size="25" style="font-family: 'IBM3270', monospace;font-size: 18px;" value="tn3270://127.0.0.1"> : 
+  <input type="text" id="port" size="5"  style="font-family: 'IBM3270', monospace;font-size: 18px;" value="3270">
+  USER: <input type="text" id="user" size="7" style="font-family: 'IBM3270', monospace;font-size: 18px;" value="herc01"> PWD:
+  <input type="password" id="pwd" size="7"  style="color: #00ff00; background-color: #000000; font-family: 'IBM3270', monospace;font-size: 18px;" value="cul8tr">
+
+</div>
+
+<div id="screen">
+	retorno aqui
+</div>
+
+<div align="center" class="menu-wrapper">
+  <div class="menu-inner">
+    <pre id="menu"></pre>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

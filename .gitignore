@@ -1,0 +1,32 @@
+# .gitignore
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+
+# --- Banco de Dados (Segurança de Governança) ---
+src/data/
+src/data/*.db
+src/data/*.db-journal
+app/infrastructure/db/sqlite/governance.db
+
+# --- Logs e Auditoria ---
+logs/
+logs/*.log
+logs/*.json
+
+# --- Poetry ---
+.pytest_cache/
+dist/
+
+# --- VS Code / IDEs ---
+.vscode/
+.idea/
+.DS_Store
+
+
