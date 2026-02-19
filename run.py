@@ -10,4 +10,3 @@ if __name__ == "__main__":
     # "procure o arquivo main.py dentro da pasta app e pegue a instância 'app'"
     uvicorn.run("app.main:app", host=settings.APP_HOST, port=settings.APP_PORT, reload=True)
 
-# vibe_33c6656cc91860a65964aa7d2dba3027

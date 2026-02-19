@@ -2,9 +2,10 @@
 
 import ctypes
 import os
+from app.application.config import settings
 
 # --- SETUP DLL (Singleton ou Global para a Infra) ---
-DLL_PATH = r"D:\msys64\mingw64\bin\lib3270.dll"
+DLL_PATH = settings.lib3270
 os.add_dll_directory(os.path.dirname(DLL_PATH))
 lib = ctypes.windll.LoadLibrary(DLL_PATH)
 

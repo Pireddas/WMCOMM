@@ -19,6 +19,8 @@ class Settings:
     MF_PORT = int(os.getenv("MF_PORT", 3270))
     TN_MODEL = os.getenv("TN_MODEL", "3279-2-E")
 
+    lib3270 = os.getenv("lib3270")
+
     origins_raw = os.getenv("ALLOWED_ORIGINS", "*")
     if origins_raw == "*":
         ALLOWED_ORIGINS = ["*"]
