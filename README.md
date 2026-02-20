@@ -33,6 +33,9 @@ Serviços para espelhamento e monitoramento visual do terminal.
 | :--- | :--- | :--- |
 | `POST` | `/view/screen-update` | Captura e retorna o buffer de tela atualizado. |
 
+> 💡 **Dica:** Você pode acessar o terminal de teste visual em `/terminal` para validar a saída destes dados em uma interface amigável.  
+> Exemplo: http://127.0.0.1:8001/terminal
+
 ### 🔐 Security
 Gestão de chaves de acesso para autorização das requisições.
 
